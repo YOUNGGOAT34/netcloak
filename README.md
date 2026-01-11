@@ -2,7 +2,7 @@
 
 A Linux command-line utility written in **C** that allows you to **view, change, randomize, restore, and manage MAC addresses** of network interfaces using low-level system calls (`ioctl`, `ethtool`). This project is designed for learning and demonstrating Linux networking, device control, and CLI parsing.
 
-> ⚠️ **Requires root privileges** to modify network interfaces.
+ **Requires root privileges** to modify network interfaces.
 
 ---
 
@@ -29,14 +29,14 @@ A Linux command-line utility written in **C** that allows you to **view, change,
 * Interface state controlled using `SIOCSIFFLAGS`
 * Command-line parsing implemented with `getopt_long()`
 
-This makes the project a **good showcase of Linux system programming and networking fundamentals**.
+
 
 ---
 
 ## Build Instructions
 
 ```bash
-gcc -Wall -Wextra -o mchanger main.c mchanger.c command_parser.c
+make all
 ```
 
 > Ensure required headers are available:
@@ -154,14 +154,8 @@ This tool is intended for **educational and legitimate administrative use only**
 
 ---
 
-## License
-
-MIT License (or specify your preferred license)
-
----
 
 ## Author
 
 GOAT
 
-*Built as a low-level Linux networking project in C.*
