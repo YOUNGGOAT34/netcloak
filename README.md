@@ -56,6 +56,10 @@ sudo ./mchanger <interface> [options]
 
 ### Examples
 
+Important: The network interface must be UP before performing most operations (changing, printing, or restoring MAC addresses).
+If the interface is DOWN, bring it up first using the -u / --up option.
+
+
 ```bash
 # List all interfaces
 sudo ./mchanger -l
