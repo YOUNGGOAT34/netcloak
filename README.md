@@ -157,5 +157,5 @@ This tool is intended for **educational and legitimate administrative use only**
 
 ## Author
 
-GOAT
+Lucas Onyiego
 
